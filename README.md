@@ -29,11 +29,7 @@ This API provides endpoints for managing users, organisations, and related data 
 https://dbdiagram.io/d/Schema-Db-Main-669183769939893daecc89a2
 
 ### OpenAPI Specifications Link
-
-
-## Base URL
-
-The base URL for all API endpoints is: http://devsWithSteeze.com/api/v1
+https://app.swaggerhub.com/apis/FIFETOYI/devsWithSteeze/1.0.0#/
 
 ## Authentication
 
@@ -47,7 +43,8 @@ This README provides an overview of the available API endpoints.
 
 ## Users
 - `GET /users`: List users
-- `POST /users`: Create a user
+- `POST /auth/register`: Register a user
+- `POST /auth/login`: Login a user
 - `GET /users/{userId}`: Get a user
 - `PUT /users/{userId}`: Update a user
 - `DELETE /users/{userId}`: Delete a user
